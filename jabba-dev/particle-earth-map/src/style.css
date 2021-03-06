@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #080808;
+}
+
+.header {
+  height: 50px;
+  background: red;
+}
+
+.footer {
+  height: 200px;
+  background: green;
+}
+
+.map-canvas {
+  text-align: center;
+}
+
+.map-canvas img {
+  display: none;
+}
+
+.no-canvas .map-canvas img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+#canvas-map {
+  max-width: 100%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */

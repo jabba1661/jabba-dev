@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #080808;
+
+  // background-image: linear-gradient(32deg, #2462f6 0%, #5999f8 100%);
+}
+
+.header {
+  height: 50px;
+  background: red;
+}
+
+.footer {
+  height: 200px;
+
+  background: green;
+}
+
+.map-canvas {
+  text-align: center;
+
+  img {
+    display: none;
+  }
+
+  .no-canvas & {
+    img {
+      display: inline-block;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+#canvas-map {
+  max-width: 100%;
+  // height: 700px; //jabba added this line
+  margin: 0 auto;
+}

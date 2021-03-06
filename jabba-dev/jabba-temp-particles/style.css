@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* Mask Copy 4: */
+  background-image: linear-gradient(32deg, #2462f6 0%, #5999f8 100%);
+}
+
+.map-canvas {
+  text-align: center;
+}
+
+.map-canvas img {
+  display: none;
+}
+
+.no-canvas .map-canvas img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+#canvas-map {
+  max-width: 100%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
